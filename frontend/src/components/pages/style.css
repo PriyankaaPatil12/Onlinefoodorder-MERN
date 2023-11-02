@@ -1,0 +1,93 @@
+.herosection{
+    background-image: url(./../../images/pizzalogo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    color: white;
+    text-align: center;  
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.herosection  h2{
+    font-family: cookie,cursive;
+    font-size: 75px;
+}
+.herosection  h1{
+    font-size: 110px;
+    font-weight: 900;
+    letter-spacing: 7px;
+    margin-top: -15px;
+}
+.herosection,.abc  h4{
+    letter-spacing: 6px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.menusection{
+    background-image: url(../../images/84770f_7693c2f2d0f940b1be3720f66dc42189.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    color: white;
+    text-align: center;  
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.description{
+    text-overflow: ellipsis; 
+}
+.about{
+    background-image: url(../../images/about-us-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    color: white;
+    text-align: center;  
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.img1{
+    background-image: url(../../images/1441pizzeria-about-us.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.mainline{
+    position: relative;
+}
+.line::after{
+    position: absolute;
+    content: "";
+    width: 110px;
+    height: 2px;
+    background-color: #0f974d;
+    left: 0px;
+    top: 41px;
+}
+
+
+
+@media screen and (min-width:0px) and (max-width:425px) {
+    .herosection{
+        background-attachment: local;
+    }
+    .herosection h2{
+        font-size: 42px;
+    }
+    .herosection h1{
+        margin: 10px 0px;
+        font-size: 40px;
+    }
+    .herosection h4{
+        letter-spacing: 4px;
+            font-size: 15px;
+    }
+}

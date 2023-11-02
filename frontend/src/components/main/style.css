@@ -1,0 +1,81 @@
+.head{
+    position: sticky;
+}
+
+.navBar {
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: inline-block;
+    z-index: 1;
+    background-color: rgba(8, 8, 8, 0.371);
+}
+
+.navBar a {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    margin: 10px;
+}
+
+i {
+    font-size: 20px;
+}
+
+i:hover,
+a:hover {
+    color:rgba(154, 213, 154, 0.733);
+    cursor: pointer;
+}
+
+.navBar nav li {
+    padding: 10px;
+    margin: 20px;
+    list-style-type: none;
+    display: inline-block;
+}
+
+#hamMenu {
+    visibility: hidden;
+}
+.topbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.989);
+    margin-top: 40px;
+}
+
+footer ul li {
+    color:white;
+    margin: 5px 0px;
+}
+
+footer .top{
+    margin: 0px;
+}
+@media screen and (min-width:0px) and (max-width:425px) {
+
+    .navBar,
+    .navBar nav li {
+        
+        display: block;
+        text-align: start;
+    }  
+
+    footer .top{
+        margin: 15px 0px;
+        padding: 0px -20px;
+    }
+}
+
+
+
+
